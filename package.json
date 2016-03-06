@@ -1,0 +1,24 @@
+{
+  "name": "MSform",
+  "version": "0.0.1",
+  "description": "Custom form elements.",
+  "main": "index.html",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/testgulshan/MSform"
+  },
+  "keywords": [
+    "MSform",
+    "msform"
+  ],
+  "author": "Gulshan kumar",
+  "bugs": {
+    "url": "https://github.com/testgulshan/MSform/issues"
+  },
+  "devDependencies": {
+    "gulp": "~3.9.1"
+  }
+}

@@ -1,12 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>List of elements</title>
+  <meta charset="UTF-8">
+  <title>MSform | Custom form elements</title>
 </head>
 <body>
-	<form action="">
+  <form action="">
+    <!-- input fields -->
     <input type="text">
+    <input type="password">
+    <textarea name="" id="" cols="30" rows="4"></textarea>
+    <label for="label">label</label>
+
+   <fieldset>
+    <legend>fieldset with lagend:</legend>
+   </fieldset>
+
+    <hr>
+    <!-- html5 elements -->
+    <input type="color">
+    <input type="date">
+    <input type="datetime">
+    <input type="datetime-local">
+    <input type="email">
+    <input type="month">
+    <input type="number">
+    <input type="range">
+    <input type="search">
+    <input type="tel">
+    <input type="time">
+    <input type="url">
+    <input type="week">
+    <output name="x" for="a b">output</output>
+
+      <input list="browsers">
+      <datalist id="browsers">
+        <option value="Internet Explorer">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
+      </datalist> 
+
+    Encryption: <keygen name="security">
+
+    <hr>
+    <!-- button -->
+    <input type="button" value="Input Button">
+    <input type="reset" value="Reset">
+    <input type="submit" value="Submit">
+    <button type="button">Button Element</button>
+
+    <hr>
+    <!-- options filds -->
+    <input type="radio">
+    <input type="checkbox">
+    <select name="optionField">
+      <option value="option1">option1</option>
+      <option value="option2">option2</option>
+      <option value="option3">option3</option>
+      <option value="option4">option4</option>
+    </select>
+
+    <select>
+      <optgroup label="option group1">
+        <option value="option1">option_group option1</option>
+        <option value="option2">option_group option2</option>
+      </optgroup>
+      <optgroup label="option group2">
+        <option value="option1">option_group option3</option>
+        <option value="option2">option_group option4</option>
+      </optgroup>
+    </select>
   </form>
+
 </body>
 </html>
