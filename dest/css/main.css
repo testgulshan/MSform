@@ -180,48 +180,9 @@ body {
   background: #f9f9f9;
 }
 .container {
-  color: #fff;
   width: 960px;
   padding: 20px;
   margin: 0 auto;
-  background: #4E2721;
+  background: #fff;
   box-sizing: border-box;
-}
-label {
-  display: block;
-  margin-bottom: 10px;
-}
-input,
-textarea,
-button,
-select {
-  padding: 5px 10px;
-  border-radius: 2px;
-}
-input:hover,
-textarea:hover,
-button:hover,
-select:hover {
-  background: #47231e;
-}
-input,
-textarea,
-fieldset,
-hr,
-button,
-select {
-  background: none;
-  margin-bottom: 20px;
-  vertical-align: top;
-  border: 1px solid #723930;
-  box-shadow: 0 1px 1px #2a1512;
-  outline: none;
-}
-input:active,
-textarea:active,
-fieldset:active,
-hr:active,
-button:active,
-select:active {
-  box-shadow: none;
 }
